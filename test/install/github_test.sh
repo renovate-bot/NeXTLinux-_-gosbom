@@ -32,7 +32,7 @@ test_download_github_release_checksums() {
   tmpdir=$(mktemp -d)
 
   tag=v0.36.0
-  github_download="https://github.com/anchore/syft/releases/download/${tag}"
+  github_download="https://github.com/nextlinux/gosbom/releases/download/${tag}"
   name=${PROJECT_NAME}
   version=$(tag_to_version "${tag}")
 

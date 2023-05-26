@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/anchore/syft/syft/sbom"
+	"github.com/nextlinux/gosbom/syft/sbom"
 )
 
 func encoder(output io.Writer, s sbom.SBOM) error {

@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func Test_SourceInfo(t *testing.T) {

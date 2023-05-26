@@ -5,7 +5,7 @@ import (
 
 	"github.com/wagoodman/go-partybus"
 
-	syftEventParsers "github.com/anchore/syft/syft/event/parsers"
+	syftEventParsers "github.com/nextlinux/gosbom/syft/event/parsers"
 )
 
 // handleExit is a UI function for processing the Exit bus event,

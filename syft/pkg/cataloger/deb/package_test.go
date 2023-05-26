@@ -5,8 +5,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/anchore/syft/syft/linux"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/linux"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func Test_packageURL(t *testing.T) {

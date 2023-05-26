@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/syft/syft/formats/internal/testutils"
+	"github.com/nextlinux/gosbom/syft/formats/internal/testutils"
 )
 
 var updateTmpl = flag.Bool("update-tmpl", false, "update the *.golden files for json encoders")

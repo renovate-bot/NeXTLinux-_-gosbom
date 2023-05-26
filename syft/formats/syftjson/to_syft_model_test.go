@@ -8,12 +8,12 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	stereoFile "github.com/anchore/stereoscope/pkg/file"
-	"github.com/anchore/syft/syft/artifact"
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/formats/syftjson/model"
-	"github.com/anchore/syft/syft/pkg"
-	"github.com/anchore/syft/syft/sbom"
-	"github.com/anchore/syft/syft/source"
+	"github.com/nextlinux/gosbom/syft/artifact"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/formats/syftjson/model"
+	"github.com/nextlinux/gosbom/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/sbom"
+	"github.com/nextlinux/gosbom/syft/source"
 )
 
 func Test_toSyftSourceData(t *testing.T) {

@@ -2,8 +2,8 @@ package swift
 
 import (
 	"github.com/anchore/packageurl-go"
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func newPackage(name, version, hash string, locations ...file.Location) pkg.Package {

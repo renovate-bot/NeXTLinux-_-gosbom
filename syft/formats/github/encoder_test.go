@@ -7,11 +7,11 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/anchore/packageurl-go"
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/linux"
-	"github.com/anchore/syft/syft/pkg"
-	"github.com/anchore/syft/syft/sbom"
-	"github.com/anchore/syft/syft/source"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/linux"
+	"github.com/nextlinux/gosbom/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/sbom"
+	"github.com/nextlinux/gosbom/syft/source"
 )
 
 func Test_toGithubModel(t *testing.T) {
@@ -82,7 +82,7 @@ func Test_toGithubModel(t *testing.T) {
 		Detector: DetectorMetadata{
 			Name:    "syft",
 			Version: "0.0.0-dev",
-			URL:     "https://github.com/anchore/syft",
+			URL:     "https://github.com/nextlinux/gosbom",
 		},
 		Metadata: Metadata{
 			"syft:distro": "pkg:generic/ubuntu@18.04?like=debian",

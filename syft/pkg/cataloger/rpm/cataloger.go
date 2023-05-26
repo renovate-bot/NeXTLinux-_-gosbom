@@ -6,9 +6,9 @@ package rpm
 import (
 	"database/sql"
 
-	"github.com/anchore/syft/internal/log"
-	"github.com/anchore/syft/syft/pkg"
-	"github.com/anchore/syft/syft/pkg/cataloger/generic"
+	"github.com/nextlinux/gosbom/internal/log"
+	"github.com/nextlinux/gosbom/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/pkg/cataloger/generic"
 )
 
 // NewRpmDBCataloger returns a new RPM DB cataloger object.

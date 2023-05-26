@@ -22,8 +22,8 @@ import (
 
 	"github.com/anchore/stereoscope/pkg/image"
 	"github.com/anchore/stereoscope/pkg/imagetest"
-	"github.com/anchore/syft/syft/artifact"
-	"github.com/anchore/syft/syft/internal/fileresolver"
+	"github.com/nextlinux/gosbom/syft/artifact"
+	"github.com/nextlinux/gosbom/syft/internal/fileresolver"
 )
 
 func TestParseInput(t *testing.T) {

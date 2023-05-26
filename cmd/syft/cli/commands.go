@@ -13,14 +13,14 @@ import (
 
 	"github.com/anchore/go-logger/adapter/logrus"
 	"github.com/anchore/stereoscope"
-	"github.com/anchore/syft/cmd/syft/cli/options"
-	"github.com/anchore/syft/internal"
-	"github.com/anchore/syft/internal/bus"
-	"github.com/anchore/syft/internal/config"
-	"github.com/anchore/syft/internal/log"
-	"github.com/anchore/syft/internal/version"
-	"github.com/anchore/syft/syft"
-	"github.com/anchore/syft/syft/event"
+	"github.com/nextlinux/gosbom/cmd/syft/cli/options"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/bus"
+	"github.com/nextlinux/gosbom/internal/config"
+	"github.com/nextlinux/gosbom/internal/log"
+	"github.com/nextlinux/gosbom/internal/version"
+	"github.com/nextlinux/gosbom/syft"
+	"github.com/nextlinux/gosbom/syft/event"
 )
 
 const indent = "  "

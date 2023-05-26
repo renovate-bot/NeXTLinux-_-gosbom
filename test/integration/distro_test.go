@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/syft/syft/linux"
-	"github.com/anchore/syft/syft/source"
+	"github.com/nextlinux/gosbom/syft/linux"
+	"github.com/nextlinux/gosbom/syft/source"
 )
 
 func TestDistroImage(t *testing.T) {

@@ -1,10 +1,10 @@
 package generic
 
 import (
-	"github.com/anchore/syft/syft/artifact"
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/linux"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/artifact"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/linux"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 type Environment struct {

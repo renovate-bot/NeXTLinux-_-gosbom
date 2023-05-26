@@ -15,13 +15,13 @@ import (
 	"github.com/anchore/stereoscope/pkg/filetree"
 	"github.com/anchore/stereoscope/pkg/image"
 	"github.com/anchore/stereoscope/pkg/imagetest"
-	"github.com/anchore/syft/syft/artifact"
-	"github.com/anchore/syft/syft/cpe"
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/linux"
-	"github.com/anchore/syft/syft/pkg"
-	"github.com/anchore/syft/syft/sbom"
-	"github.com/anchore/syft/syft/source"
+	"github.com/nextlinux/gosbom/syft/artifact"
+	"github.com/nextlinux/gosbom/syft/cpe"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/linux"
+	"github.com/nextlinux/gosbom/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/sbom"
+	"github.com/nextlinux/gosbom/syft/source"
 )
 
 type redactor func(s []byte) []byte

@@ -8,10 +8,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/anchore/syft/internal/log"
-	"github.com/anchore/syft/syft/artifact"
-	"github.com/anchore/syft/syft/cpe"
-	"github.com/anchore/syft/syft/file"
+	"github.com/nextlinux/gosbom/internal/log"
+	"github.com/nextlinux/gosbom/syft/artifact"
+	"github.com/nextlinux/gosbom/syft/cpe"
+	"github.com/nextlinux/gosbom/syft/file"
 )
 
 // Package represents an application or library that has been bundled into a distributable format.

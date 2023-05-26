@@ -2,7 +2,7 @@ package fileresolver
 
 import (
 	"github.com/anchore/stereoscope/pkg/image"
-	"github.com/anchore/syft/syft/file"
+	"github.com/nextlinux/gosbom/syft/file"
 )
 
 func fileMetadataByLocation(img *image.Image, location file.Location) (file.Metadata, error) {

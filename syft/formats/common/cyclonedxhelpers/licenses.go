@@ -6,8 +6,8 @@ import (
 
 	"github.com/CycloneDX/cyclonedx-go"
 
-	"github.com/anchore/syft/internal/spdxlicense"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/internal/spdxlicense"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 // This should be a function that just surfaces licenses already validated in the package struct

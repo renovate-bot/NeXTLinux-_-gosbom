@@ -2,8 +2,8 @@ package dart
 
 import (
 	"github.com/anchore/packageurl-go"
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func newPubspecLockPackage(name string, raw pubspecLockPackage, locations ...file.Location) pkg.Package {

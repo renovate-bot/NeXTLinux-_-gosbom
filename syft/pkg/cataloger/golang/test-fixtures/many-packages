@@ -1,5 +1,5 @@
 module (
-    github.com/anchore/syft
+    github.com/nextlinux/gosbom
 )
 
 go 1.14

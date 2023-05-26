@@ -7,10 +7,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/anchore/syft/cmd/syft/cli/options"
-	"github.com/anchore/syft/cmd/syft/cli/packages"
-	"github.com/anchore/syft/internal"
-	"github.com/anchore/syft/internal/config"
+	"github.com/nextlinux/gosbom/cmd/syft/cli/options"
+	"github.com/nextlinux/gosbom/cmd/syft/cli/packages"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/config"
 )
 
 const (

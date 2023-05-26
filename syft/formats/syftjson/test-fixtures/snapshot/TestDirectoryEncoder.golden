@@ -95,6 +95,6 @@
  },
  "schema": {
   "version": "8.0.0",
-  "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-8.0.0.json"
+  "url": "https://raw.githubusercontent.com/nextlinux/gosbom/main/schema/json/schema-8.0.0.json"
  }
 }

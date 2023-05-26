@@ -8,7 +8,7 @@ import (
 	"github.com/go-test/deep"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func TestParseJavaManifest(t *testing.T) {

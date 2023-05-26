@@ -1,9 +1,9 @@
 package options
 
 import (
-	"github.com/anchore/syft/internal"
-	"github.com/anchore/syft/internal/config"
-	"github.com/anchore/syft/internal/log"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/config"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 func IsVerbose(app *config.Application) (result bool) {

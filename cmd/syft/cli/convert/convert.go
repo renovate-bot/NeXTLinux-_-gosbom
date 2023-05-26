@@ -6,10 +6,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/anchore/syft/cmd/syft/cli/options"
-	"github.com/anchore/syft/internal/config"
-	"github.com/anchore/syft/internal/log"
-	"github.com/anchore/syft/syft/formats"
+	"github.com/nextlinux/gosbom/cmd/syft/cli/options"
+	"github.com/nextlinux/gosbom/internal/config"
+	"github.com/nextlinux/gosbom/internal/log"
+	"github.com/nextlinux/gosbom/syft/formats"
 )
 
 func Run(_ context.Context, app *config.Application, args []string) error {

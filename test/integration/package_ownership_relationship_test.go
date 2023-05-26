@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/anchore/syft/syft/formats/syftjson"
-	syftjsonModel "github.com/anchore/syft/syft/formats/syftjson/model"
-	"github.com/anchore/syft/syft/source"
+	"github.com/nextlinux/gosbom/syft/formats/syftjson"
+	syftjsonModel "github.com/nextlinux/gosbom/syft/formats/syftjson/model"
+	"github.com/nextlinux/gosbom/syft/source"
 )
 
 func TestPackageOwnershipRelationships(t *testing.T) {

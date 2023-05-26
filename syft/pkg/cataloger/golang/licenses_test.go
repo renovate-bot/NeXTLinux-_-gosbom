@@ -13,11 +13,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/syft/internal"
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/internal/fileresolver"
-	"github.com/anchore/syft/syft/license"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/internal/fileresolver"
+	"github.com/nextlinux/gosbom/syft/license"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func Test_LocalLicenseSearch(t *testing.T) {
@@ -202,7 +202,7 @@ func Test_remotesForModule(t *testing.T) {
 		expected []string
 	}{
 		{
-			module:   "github.com/anchore/syft",
+			module:   "github.com/nextlinux/gosbom",
 			expected: allProxies,
 		},
 		{

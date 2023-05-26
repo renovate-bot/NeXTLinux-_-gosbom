@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func Test_encodeDescription(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/anchore/syft/syft/source"
+	"github.com/nextlinux/gosbom/syft/source"
 )
 
 // Source object represents the thing that was cataloged

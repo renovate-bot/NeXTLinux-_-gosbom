@@ -6,13 +6,13 @@ import (
 
 	"github.com/dave/jennifer/jen"
 
-	"github.com/anchore/syft/schema/json/internal"
+	"github.com/nextlinux/gosbom/schema/json/internal"
 )
 
 // This program generates internal/generated.go.
 
 const (
-	pkgImport = "github.com/anchore/syft/syft/pkg"
+	pkgImport = "github.com/nextlinux/gosbom/syft/pkg"
 	path      = "internal/generated.go"
 )
 

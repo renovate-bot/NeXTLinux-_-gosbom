@@ -5,9 +5,9 @@ import (
 
 	"github.com/google/licensecheck"
 
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/license"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/license"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 const (

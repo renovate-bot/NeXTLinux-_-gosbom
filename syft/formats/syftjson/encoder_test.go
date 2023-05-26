@@ -6,14 +6,14 @@ import (
 	"testing"
 
 	stereoFile "github.com/anchore/stereoscope/pkg/file"
-	"github.com/anchore/syft/syft/artifact"
-	"github.com/anchore/syft/syft/cpe"
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/formats/internal/testutils"
-	"github.com/anchore/syft/syft/linux"
-	"github.com/anchore/syft/syft/pkg"
-	"github.com/anchore/syft/syft/sbom"
-	"github.com/anchore/syft/syft/source"
+	"github.com/nextlinux/gosbom/syft/artifact"
+	"github.com/nextlinux/gosbom/syft/cpe"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/formats/internal/testutils"
+	"github.com/nextlinux/gosbom/syft/linux"
+	"github.com/nextlinux/gosbom/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/sbom"
+	"github.com/nextlinux/gosbom/syft/source"
 )
 
 var updateJson = flag.Bool("update-json", false, "update the *.golden files for json encoders")

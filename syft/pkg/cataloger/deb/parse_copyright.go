@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/anchore/syft/internal"
+	"github.com/nextlinux/gosbom/internal"
 )
 
 // For more information see: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/#license-syntax

@@ -4,7 +4,7 @@ Package java provides a concrete Cataloger implementation for Java archives (jar
 package java
 
 import (
-	"github.com/anchore/syft/syft/pkg/cataloger/generic"
+	"github.com/nextlinux/gosbom/syft/pkg/cataloger/generic"
 )
 
 // NewJavaCataloger returns a new Java archive cataloger object.

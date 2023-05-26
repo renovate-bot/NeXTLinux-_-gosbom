@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/anchore/syft/syft/formats/internal/testutils"
+	"github.com/nextlinux/gosbom/syft/formats/internal/testutils"
 )
 
 var updateSpdxJson = flag.Bool("update-spdx-json", false, "update the *.golden files for spdx-json encoders")

@@ -5,8 +5,8 @@ import (
 
 	"github.com/scylladb/go-set/strset"
 
-	"github.com/anchore/syft/internal"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 var (

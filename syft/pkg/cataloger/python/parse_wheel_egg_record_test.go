@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-test/deep"
 
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func TestParseWheelEggRecord(t *testing.T) {

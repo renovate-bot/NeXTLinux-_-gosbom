@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/mitchellh/go-homedir"
 
-	"github.com/anchore/syft/internal/log"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 // multiWriter holds a list of child sbom.Writers to apply all Write and Close operations to

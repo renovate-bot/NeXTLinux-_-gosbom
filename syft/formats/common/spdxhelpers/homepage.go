@@ -1,6 +1,6 @@
 package spdxhelpers
 
-import "github.com/anchore/syft/syft/pkg"
+import "github.com/nextlinux/gosbom/syft/pkg"
 
 func Homepage(p pkg.Package) string {
 	if hasMetadata(p) {

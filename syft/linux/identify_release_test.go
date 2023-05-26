@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/syft/syft/source"
+	"github.com/nextlinux/gosbom/syft/source"
 )
 
 func TestIdentifyRelease(t *testing.T) {

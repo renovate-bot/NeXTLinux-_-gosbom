@@ -1,7 +1,7 @@
 package cpe
 
 import (
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 // candidateComposite is a convenience when creating the defaultCandidateAdditions set

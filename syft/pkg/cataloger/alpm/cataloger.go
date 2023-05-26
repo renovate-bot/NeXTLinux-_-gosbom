@@ -1,8 +1,8 @@
 package alpm
 
 import (
-	"github.com/anchore/syft/syft/pkg"
-	"github.com/anchore/syft/syft/pkg/cataloger/generic"
+	"github.com/nextlinux/gosbom/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/pkg/cataloger/generic"
 )
 
 const catalogerName = "alpmdb-cataloger"

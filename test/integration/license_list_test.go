@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/syft/internal/spdxlicense"
+	"github.com/nextlinux/gosbom/internal/spdxlicense"
 )
 
 func TestSPDXLicenseListIsTheLatest(t *testing.T) {

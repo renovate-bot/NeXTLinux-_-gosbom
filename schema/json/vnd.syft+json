@@ -28,7 +28,7 @@ Interoperability considerations:
 This media type has the same interoperability considerations of application/json as described in [RFC8259].
 
 Published specification:
-The specification can be found on the main Syft GitHub repository under the schema directory https://github.com/anchore/syft/blob/main/schema/json
+The specification can be found on the main Syft GitHub repository under the schema directory https://github.com/nextlinux/gosbom/blob/main/schema/json
 
 Applications which use this media:
 This media type is used to specify a software bill of materials.

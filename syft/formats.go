@@ -1,17 +1,17 @@
 package syft
 
 import (
-	"github.com/anchore/syft/syft/formats"
-	"github.com/anchore/syft/syft/formats/cyclonedxjson"
-	"github.com/anchore/syft/syft/formats/cyclonedxxml"
-	"github.com/anchore/syft/syft/formats/github"
-	"github.com/anchore/syft/syft/formats/spdxjson"
-	"github.com/anchore/syft/syft/formats/spdxtagvalue"
-	"github.com/anchore/syft/syft/formats/syftjson"
-	"github.com/anchore/syft/syft/formats/table"
-	"github.com/anchore/syft/syft/formats/template"
-	"github.com/anchore/syft/syft/formats/text"
-	"github.com/anchore/syft/syft/sbom"
+	"github.com/nextlinux/gosbom/syft/formats"
+	"github.com/nextlinux/gosbom/syft/formats/cyclonedxjson"
+	"github.com/nextlinux/gosbom/syft/formats/cyclonedxxml"
+	"github.com/nextlinux/gosbom/syft/formats/github"
+	"github.com/nextlinux/gosbom/syft/formats/spdxjson"
+	"github.com/nextlinux/gosbom/syft/formats/spdxtagvalue"
+	"github.com/nextlinux/gosbom/syft/formats/syftjson"
+	"github.com/nextlinux/gosbom/syft/formats/table"
+	"github.com/nextlinux/gosbom/syft/formats/template"
+	"github.com/nextlinux/gosbom/syft/formats/text"
+	"github.com/nextlinux/gosbom/syft/sbom"
 )
 
 // these have been exported for the benefit of API users

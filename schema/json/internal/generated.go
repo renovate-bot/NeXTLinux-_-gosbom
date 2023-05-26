@@ -2,7 +2,7 @@
 
 package internal
 
-import "github.com/anchore/syft/syft/pkg"
+import "github.com/nextlinux/gosbom/syft/pkg"
 
 // ArtifactMetadataContainer is a struct that contains all the metadata types for a package, as represented in the pkg.Package.Metadata field.
 type ArtifactMetadataContainer struct {

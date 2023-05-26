@@ -7,7 +7,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/syft/syft/source"
+	"github.com/nextlinux/gosbom/syft/source"
 )
 
 func TestSource_UnmarshalJSON(t *testing.T) {

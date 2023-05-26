@@ -4,7 +4,7 @@ Package swift provides a concrete Cataloger implementation for Podfile.lock file
 package swift
 
 import (
-	"github.com/anchore/syft/syft/pkg/cataloger/generic"
+	"github.com/nextlinux/gosbom/syft/pkg/cataloger/generic"
 )
 
 // NewCocoapodsCataloger returns a new Swift Cocoapods lock file cataloger object.

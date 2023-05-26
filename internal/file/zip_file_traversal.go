@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/anchore/syft/internal/log"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 const (

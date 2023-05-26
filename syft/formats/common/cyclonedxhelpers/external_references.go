@@ -6,8 +6,8 @@ import (
 
 	"github.com/CycloneDX/cyclonedx-go"
 
-	syftFile "github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/pkg"
+	syftFile "github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 //nolint:gocognit

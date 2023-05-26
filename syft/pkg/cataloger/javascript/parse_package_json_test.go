@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/pkg"
-	"github.com/anchore/syft/syft/pkg/cataloger/internal/pkgtest"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/pkg/cataloger/internal/pkgtest"
 )
 
 func TestParsePackageJSON(t *testing.T) {
@@ -197,7 +197,7 @@ func TestParsePackageJSON(t *testing.T) {
 	}
 }
 
-func TestParsePackageJSON_Partial(t *testing.T) { // see https://github.com/anchore/syft/issues/311
+func TestParsePackageJSON_Partial(t *testing.T) { // see https://github.com/nextlinux/gosbom/issues/311
 	const fixtureFile = "test-fixtures/pkg-json/package-partial.json"
 
 	pkgtest.TestFileParser(t, fixtureFile, parsePackageJSON, nil, nil)

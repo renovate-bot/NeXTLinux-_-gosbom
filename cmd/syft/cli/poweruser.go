@@ -6,16 +6,16 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/anchore/syft/cmd/syft/cli/options"
-	"github.com/anchore/syft/cmd/syft/cli/poweruser"
-	"github.com/anchore/syft/internal"
-	"github.com/anchore/syft/internal/config"
+	"github.com/nextlinux/gosbom/cmd/syft/cli/options"
+	"github.com/nextlinux/gosbom/cmd/syft/cli/poweruser"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/config"
 )
 
 const powerUserExample = `  {{.appName}} {{.command}} <image>
   DEPRECATED - THIS COMMAND WILL BE REMOVED in v1.0.0
   Only image sources are supported (e.g. docker: , podman: , docker-archive: , oci: , etc.), the directory source (dir:) is not supported, template outputs are not supported.
-  All behavior is controlled via application configuration and environment variables (see https://github.com/anchore/syft#configuration)
+  All behavior is controlled via application configuration and environment variables (see https://github.com/nextlinux/gosbom#configuration)
 `
 
 func PowerUser(v *viper.Viper, app *config.Application, ro *options.RootOptions) *cobra.Command {

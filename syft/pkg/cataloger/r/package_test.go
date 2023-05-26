@@ -3,7 +3,7 @@ package r
 import (
 	"testing"
 
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func Test_NewPackageLicenses(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 	"github.com/CycloneDX/cyclonedx-go"
 
 	"github.com/anchore/packageurl-go"
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/formats/common"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/formats/common"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func encodeComponent(p pkg.Package) cyclonedx.Component {

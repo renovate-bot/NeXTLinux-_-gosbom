@@ -1,7 +1,7 @@
 package dart
 
 import (
-	"github.com/anchore/syft/syft/pkg/cataloger/generic"
+	"github.com/nextlinux/gosbom/syft/pkg/cataloger/generic"
 )
 
 const catalogerName = "dartlang-lock-cataloger"

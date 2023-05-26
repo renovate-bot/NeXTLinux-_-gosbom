@@ -3,11 +3,11 @@ package java
 import (
 	"fmt"
 
-	intFile "github.com/anchore/syft/internal/file"
-	"github.com/anchore/syft/syft/artifact"
-	"github.com/anchore/syft/syft/file"
-	"github.com/anchore/syft/syft/pkg"
-	"github.com/anchore/syft/syft/pkg/cataloger/generic"
+	intFile "github.com/nextlinux/gosbom/internal/file"
+	"github.com/nextlinux/gosbom/syft/artifact"
+	"github.com/nextlinux/gosbom/syft/file"
+	"github.com/nextlinux/gosbom/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/pkg/cataloger/generic"
 )
 
 var genericTarGlobs = []string{
@@ -39,7 +39,7 @@ var genericTarGlobs = []string{
 	"**/*.tzstd",
 }
 
-// TODO: when the generic archive cataloger is implemented, this should be removed (https://github.com/anchore/syft/issues/246)
+// TODO: when the generic archive cataloger is implemented, this should be removed (https://github.com/nextlinux/gosbom/issues/246)
 
 // parseTarWrappedJavaArchive is a parser function for java archive contents contained within arbitrary tar files.
 // note: for compressed tars this is an extremely expensive operation and can lead to performance degradation. This is

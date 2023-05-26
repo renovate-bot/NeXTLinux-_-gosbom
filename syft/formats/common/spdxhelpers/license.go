@@ -3,9 +3,9 @@ package spdxhelpers
 import (
 	"strings"
 
-	"github.com/anchore/syft/internal/spdxlicense"
-	"github.com/anchore/syft/syft/license"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/internal/spdxlicense"
+	"github.com/nextlinux/gosbom/syft/license"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func License(p pkg.Package) (concluded, declared string) {

@@ -1,6 +1,6 @@
 package cyclonedxhelpers
 
-import "github.com/anchore/syft/syft/pkg"
+import "github.com/nextlinux/gosbom/syft/pkg"
 
 func encodeGroup(p pkg.Package) string {
 	if hasMetadata(p) {

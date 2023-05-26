@@ -7,8 +7,8 @@ import (
 	"github.com/spdx/tools-golang/convert"
 	"github.com/spdx/tools-golang/spdx/v2/v2_2"
 
-	"github.com/anchore/syft/syft/formats/common/spdxhelpers"
-	"github.com/anchore/syft/syft/sbom"
+	"github.com/nextlinux/gosbom/syft/formats/common/spdxhelpers"
+	"github.com/nextlinux/gosbom/syft/sbom"
 )
 
 func encoder2_3(output io.Writer, s sbom.SBOM) error {

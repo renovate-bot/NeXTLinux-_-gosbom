@@ -8,11 +8,11 @@ import (
 	"github.com/mholt/archiver/v3"
 
 	"github.com/anchore/packageurl-go"
-	"github.com/anchore/syft/internal"
-	"github.com/anchore/syft/internal/log"
-	"github.com/anchore/syft/syft/pkg"
-	"github.com/anchore/syft/syft/sbom"
-	"github.com/anchore/syft/syft/source"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/log"
+	"github.com/nextlinux/gosbom/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/sbom"
+	"github.com/nextlinux/gosbom/syft/source"
 )
 
 // toGithubModel converts the provided SBOM to a GitHub dependency model
@@ -27,7 +27,7 @@ func toGithubModel(s *sbom.SBOM) DependencySnapshot {
 		// TODO allow property input to specify the Job, Sha, and Ref
 		Detector: DetectorMetadata{
 			Name:    internal.ApplicationName,
-			URL:     "https://github.com/anchore/syft",
+			URL:     "https://github.com/nextlinux/gosbom",
 			Version: v,
 		},
 		Metadata:  toSnapshotMetadata(s),

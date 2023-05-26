@@ -1,4 +1,4 @@
-module github.com/anchore/syft
+module github.com/nextlinux/gosbom
 
 go 1.18
 

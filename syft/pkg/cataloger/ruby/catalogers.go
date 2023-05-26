@@ -4,7 +4,7 @@ Package ruby bundler provides a concrete Cataloger implementation for Ruby Gemfi
 package ruby
 
 import (
-	"github.com/anchore/syft/syft/pkg/cataloger/generic"
+	"github.com/nextlinux/gosbom/syft/pkg/cataloger/generic"
 )
 
 // NewGemFileLockCataloger returns a new Bundler cataloger object tailored for parsing index-oriented files (e.g. Gemfile.lock).

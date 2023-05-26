@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/syft/schema/json/internal"
+	"github.com/nextlinux/gosbom/schema/json/internal"
 )
 
 func TestAllMetadataRepresented(t *testing.T) {

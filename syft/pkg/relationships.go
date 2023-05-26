@@ -1,6 +1,6 @@
 package pkg
 
-import "github.com/anchore/syft/syft/artifact"
+import "github.com/nextlinux/gosbom/syft/artifact"
 
 func NewRelationships(catalog *Collection) []artifact.Relationship {
 	rels := RelationshipsByFileOwnership(catalog)

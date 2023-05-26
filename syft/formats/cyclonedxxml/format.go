@@ -3,8 +3,8 @@ package cyclonedxxml
 import (
 	"github.com/CycloneDX/cyclonedx-go"
 
-	"github.com/anchore/syft/syft/formats/common/cyclonedxhelpers"
-	"github.com/anchore/syft/syft/sbom"
+	"github.com/nextlinux/gosbom/syft/formats/common/cyclonedxhelpers"
+	"github.com/nextlinux/gosbom/syft/sbom"
 )
 
 const ID sbom.FormatID = "cyclonedx-xml"

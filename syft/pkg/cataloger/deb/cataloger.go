@@ -4,7 +4,7 @@ Package deb provides a concrete Cataloger implementation for Debian package DB s
 package deb
 
 import (
-	"github.com/anchore/syft/syft/pkg/cataloger/generic"
+	"github.com/nextlinux/gosbom/syft/pkg/cataloger/generic"
 )
 
 const catalogerName = "dpkgdb-cataloger"

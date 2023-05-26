@@ -12,9 +12,9 @@ import (
 
 	"github.com/invopop/jsonschema"
 
-	"github.com/anchore/syft/internal"
-	genInt "github.com/anchore/syft/schema/json/internal"
-	syftjsonModel "github.com/anchore/syft/syft/formats/syftjson/model"
+	"github.com/nextlinux/gosbom/internal"
+	genInt "github.com/nextlinux/gosbom/schema/json/internal"
+	syftjsonModel "github.com/nextlinux/gosbom/syft/formats/syftjson/model"
 )
 
 /*

@@ -3,8 +3,8 @@ package config
 import (
 	"github.com/spf13/viper"
 
-	"github.com/anchore/syft/internal/file"
-	"github.com/anchore/syft/syft/source"
+	"github.com/nextlinux/gosbom/internal/file"
+	"github.com/nextlinux/gosbom/syft/source"
 )
 
 type fileContents struct {

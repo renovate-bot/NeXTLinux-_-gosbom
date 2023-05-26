@@ -5,8 +5,8 @@ import (
 
 	"github.com/facebookincubator/nvdtools/wfn"
 
-	"github.com/anchore/syft/syft/cpe"
-	"github.com/anchore/syft/syft/pkg"
+	"github.com/nextlinux/gosbom/syft/cpe"
+	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 const jenkinsName = "jenkins"

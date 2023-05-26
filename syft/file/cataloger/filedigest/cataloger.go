@@ -8,12 +8,12 @@ import (
 	"github.com/wagoodman/go-progress"
 
 	stereoscopeFile "github.com/anchore/stereoscope/pkg/file"
-	"github.com/anchore/syft/internal"
-	"github.com/anchore/syft/internal/bus"
-	"github.com/anchore/syft/internal/log"
-	"github.com/anchore/syft/syft/event"
-	"github.com/anchore/syft/syft/file"
-	internal2 "github.com/anchore/syft/syft/file/cataloger/internal"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/bus"
+	"github.com/nextlinux/gosbom/internal/log"
+	"github.com/nextlinux/gosbom/syft/event"
+	"github.com/nextlinux/gosbom/syft/file"
+	internal2 "github.com/nextlinux/gosbom/syft/file/cataloger/internal"
 )
 
 var ErrUndigestableFile = errors.New("undigestable file")

@@ -1,7 +1,7 @@
 package cpp
 
 import (
-	"github.com/anchore/syft/syft/pkg/cataloger/generic"
+	"github.com/nextlinux/gosbom/syft/pkg/cataloger/generic"
 )
 
 const catalogerName = "conan-cataloger"

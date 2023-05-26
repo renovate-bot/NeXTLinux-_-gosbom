@@ -9,9 +9,9 @@ import (
 	"github.com/acobaugh/osrelease"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/anchore/syft/internal"
-	"github.com/anchore/syft/internal/log"
-	"github.com/anchore/syft/syft/file"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/log"
+	"github.com/nextlinux/gosbom/syft/file"
 )
 
 // returns a distro or nil

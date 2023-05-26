@@ -7,7 +7,7 @@ import (
 
 	"github.com/github/go-spdx/v2/spdxexp"
 
-	"github.com/anchore/syft/internal/spdxlicense"
+	"github.com/nextlinux/gosbom/internal/spdxlicense"
 )
 
 type Type string
@@ -18,7 +18,7 @@ const (
 )
 
 func ParseExpression(expression string) (ex string, err error) {
-	// https://github.com/anchore/syft/issues/1837
+	// https://github.com/nextlinux/gosbom/issues/1837
 	// The current spdx library can panic when parsing some expressions
 	// This is a temporary fix to recover and patch until we can investigate and contribute
 	// a fix to the upstream github library
@@ -35,7 +35,7 @@ func ParseExpression(expression string) (ex string, err error) {
 	// If it doesn't exist initially in the SPDX list it might be a more complex expression
 	// ignored variable is any invalid expressions
 	// TODO: contribute to spdxexp to expose deprecated license IDs
-	// https://github.com/anchore/syft/issues/1814
+	// https://github.com/nextlinux/gosbom/issues/1814
 	valid, _ := spdxexp.ValidateLicenses([]string{expression})
 	if !valid {
 		return "", fmt.Errorf("invalid SPDX expression: %s", expression)
