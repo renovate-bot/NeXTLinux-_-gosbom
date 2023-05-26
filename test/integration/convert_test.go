@@ -57,19 +57,19 @@ func TestConvertCmd(t *testing.T) {
 			syftSbom, _ := catalogFixtureImage(t, "image-pkg-coverage", source.SquashedScope, nil)
 			syftFormat := syftjson.Format()
 
-			syftFile, err := os.CreateTemp("", "test-convert-sbom-")
+			gosbomFile, err := os.CreateTemp("", "test-convert-sbom-")
 			require.NoError(t, err)
 			defer func() {
-				_ = os.Remove(syftFile.Name())
+				_ = os.Remove(gosbomFile.Name())
 			}()
 
-			err = syftFormat.Encode(syftFile, syftSbom)
+			err = syftFormat.Encode(gosbomFile, syftSbom)
 			require.NoError(t, err)
 
 			formatFile, err := os.CreateTemp("", "test-convert-sbom-")
 			require.NoError(t, err)
 			defer func() {
-				_ = os.Remove(syftFile.Name())
+				_ = os.Remove(gosbomFile.Name())
 			}()
 
 			ctx := context.Background()
@@ -84,7 +84,7 @@ func TestConvertCmd(t *testing.T) {
 				os.Stdout = rescue
 			}()
 
-			err = convert.Run(ctx, app, []string{syftFile.Name()})
+			err = convert.Run(ctx, app, []string{gosbomFile.Name()})
 			require.NoError(t, err)
 			contents, err := os.ReadFile(formatFile.Name())
 			require.NoError(t, err)

@@ -10,7 +10,7 @@ env:
 builds:
   - id: linux-build
     dir: ./cmd/gosbom
-    binary: syft
+    binary: gosbom
     goos:
       - linux
     goarch:
@@ -31,7 +31,7 @@ builds:
 
   - id: darwin-build
     dir: ./cmd/gosbom
-    binary: syft
+    binary: gosbom
     goos:
       - darwin
     goarch:
@@ -47,7 +47,7 @@ builds:
 
   - id: windows-build
     dir: ./cmd/gosbom
-    binary: syft
+    binary: gosbom
     goos:
       - windows
     goarch:
@@ -82,7 +82,7 @@ nfpms:
 brews:
   - tap:
       owner: anchore
-      name: homebrew-syft
+      name: homebrew-gosbom
       token: "{{.Env.GITHUB_BREW_TOKEN}}"
     ids:
       - darwin-archives
