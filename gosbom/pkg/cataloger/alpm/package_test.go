@@ -3,9 +3,9 @@ package alpm
 import (
 	"testing"
 
+	"github.com/anchore/packageurl-go"
 	"github.com/sergi/go-diff/diffmatchpatch"
 
-	"github.com/anchore/packageurl-go"
 	"github.com/nextlinux/gosbom/gosbom/linux"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 )

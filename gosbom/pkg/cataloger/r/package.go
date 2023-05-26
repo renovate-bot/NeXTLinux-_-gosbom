@@ -4,6 +4,7 @@ import (
 	"strings"
 
 	"github.com/anchore/packageurl-go"
+
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 )

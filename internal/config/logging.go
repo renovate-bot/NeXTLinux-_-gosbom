@@ -3,10 +3,9 @@ package config
 import (
 	"fmt"
 
+	"github.com/anchore/go-logger"
 	"github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
-
-	"github.com/anchore/go-logger"
 )
 
 // logging contains all logging-related configuration options available to the user via the application config.

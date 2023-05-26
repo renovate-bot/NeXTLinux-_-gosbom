@@ -3,9 +3,9 @@ package integration
 import (
 	"testing"
 
+	"github.com/anchore/stereoscope/pkg/imagetest"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/stereoscope/pkg/imagetest"
 	syft "github.com/nextlinux/gosbom/gosbom"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger"
 	"github.com/nextlinux/gosbom/gosbom/sbom"

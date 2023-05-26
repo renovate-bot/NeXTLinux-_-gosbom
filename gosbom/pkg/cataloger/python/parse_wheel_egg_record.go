@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 // parseWheelOrEggMetadata takes a Python Egg or Wheel (which share the same format and values for our purposes),

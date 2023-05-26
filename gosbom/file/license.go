@@ -1,8 +1,8 @@
 package file
 
 import (
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/license"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 type License struct {

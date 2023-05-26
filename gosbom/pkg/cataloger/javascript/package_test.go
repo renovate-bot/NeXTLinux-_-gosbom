@@ -4,10 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/anchore/packageurl-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-
-	"github.com/anchore/packageurl-go"
 )
 
 func Test_packageURL(t *testing.T) {

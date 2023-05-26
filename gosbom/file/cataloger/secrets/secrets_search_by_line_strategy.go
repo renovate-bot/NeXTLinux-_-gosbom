@@ -7,8 +7,8 @@ import (
 	"io"
 	"regexp"
 
-	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/gosbom/file"
+	"github.com/nextlinux/gosbom/internal"
 )
 
 func catalogLocationByLine(resolver file.Resolver, location file.Location, patterns map[string]*regexp.Regexp) ([]file.SearchResult, error) {

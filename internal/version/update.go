@@ -7,6 +7,7 @@ import (
 	"strings"
 
 	hashiVersion "github.com/anchore/go-version"
+
 	"github.com/nextlinux/gosbom/internal"
 )
 

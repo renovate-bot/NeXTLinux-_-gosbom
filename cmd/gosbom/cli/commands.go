@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/anchore/go-logger/adapter/logrus"
+	"github.com/anchore/stereoscope"
 	cranecmd "github.com/google/go-containerregistry/cmd/crane/cmd"
 	"github.com/gookit/color"
 	logrusUpstream "github.com/sirupsen/logrus"
@@ -11,8 +13,6 @@ import (
 	"github.com/spf13/viper"
 	"github.com/wagoodman/go-partybus"
 
-	"github.com/anchore/go-logger/adapter/logrus"
-	"github.com/anchore/stereoscope"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/options"
 	syft "github.com/nextlinux/gosbom/gosbom"
 	"github.com/nextlinux/gosbom/gosbom/event"

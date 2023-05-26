@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/anchore/stereoscope/pkg/imagetest"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/stereoscope/pkg/imagetest"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/source"

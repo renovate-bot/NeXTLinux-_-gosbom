@@ -3,10 +3,9 @@ package file
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-multierror"
-
 	"github.com/anchore/stereoscope/pkg/file"
 	"github.com/anchore/stereoscope/pkg/image"
+	"github.com/hashicorp/go-multierror"
 )
 
 // Location represents a path relative to a particular filesystem resolved to a specific file.Reference. This struct is used as a key

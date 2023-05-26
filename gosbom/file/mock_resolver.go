@@ -6,9 +6,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/bmatcuk/doublestar/v4"
-
 	"github.com/anchore/stereoscope/pkg/file"
+	"github.com/bmatcuk/doublestar/v4"
 )
 
 var _ Resolver = (*MockResolver)(nil)

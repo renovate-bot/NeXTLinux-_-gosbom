@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/anchore/stereoscope"
 	"github.com/gookit/color"
 	"github.com/wagoodman/go-partybus"
 
-	"github.com/anchore/stereoscope"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/eventloop"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/options"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/packages"

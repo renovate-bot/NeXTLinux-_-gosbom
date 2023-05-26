@@ -4,10 +4,10 @@ import (
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/go-progress"
 
-	"github.com/nextlinux/gosbom/internal/bus"
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/event"
 	"github.com/nextlinux/gosbom/gosbom/file"
+	"github.com/nextlinux/gosbom/internal/bus"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 type Cataloger struct {

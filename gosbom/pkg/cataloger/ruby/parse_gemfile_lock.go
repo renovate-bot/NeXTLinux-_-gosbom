@@ -4,11 +4,11 @@ import (
 	"bufio"
 	"strings"
 
-	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/generic"
+	"github.com/nextlinux/gosbom/internal"
 )
 
 var _ generic.Parser = parseGemFileLockEntries

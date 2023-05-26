@@ -2,6 +2,7 @@ package fileresolver
 
 import (
 	"github.com/anchore/stereoscope/pkg/image"
+
 	"github.com/nextlinux/gosbom/gosbom/file"
 )
 

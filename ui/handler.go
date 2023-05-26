@@ -9,10 +9,10 @@ import (
 	"context"
 	"sync"
 
+	stereoscopeEvent "github.com/anchore/stereoscope/pkg/event"
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/jotframe/pkg/frame"
 
-	stereoscopeEvent "github.com/anchore/stereoscope/pkg/event"
 	syftEvent "github.com/nextlinux/gosbom/gosbom/event"
 )
 

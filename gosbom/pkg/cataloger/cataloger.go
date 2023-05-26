@@ -8,7 +8,6 @@ package cataloger
 import (
 	"strings"
 
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/alpm"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/apkdb"
@@ -34,6 +33,7 @@ import (
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/rust"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/sbom"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/swift"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 const AllCatalogersPattern = "all"

@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"testing"
 
+	stereoscopeFile "github.com/anchore/stereoscope/pkg/file"
+	"github.com/anchore/stereoscope/pkg/imagetest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	stereoscopeFile "github.com/anchore/stereoscope/pkg/file"
-	"github.com/anchore/stereoscope/pkg/imagetest"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/source"
 )

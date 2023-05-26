@@ -5,10 +5,10 @@ import (
 
 	"github.com/bmatcuk/doublestar/v4"
 
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 const (

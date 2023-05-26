@@ -8,10 +8,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/cpe"
 	"github.com/nextlinux/gosbom/gosbom/file"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 // Package represents an application or library that has been bundled into a distributable format.

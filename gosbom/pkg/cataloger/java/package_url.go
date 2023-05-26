@@ -2,6 +2,7 @@ package java
 
 import (
 	"github.com/anchore/packageurl-go"
+
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/common/cpe"
 )

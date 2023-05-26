@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/anchore/packageurl-go"
 	rpmdb "github.com/knqyf263/go-rpmdb/pkg"
 
-	"github.com/anchore/packageurl-go"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/linux"
 	"github.com/nextlinux/gosbom/gosbom/pkg"

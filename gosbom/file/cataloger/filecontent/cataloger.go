@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/internal/log"
-	"github.com/nextlinux/gosbom/gosbom/file"
 )
 
 // Deprecated: will be removed in syft v1.0.0

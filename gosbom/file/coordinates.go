@@ -3,8 +3,8 @@ package file
 import (
 	"fmt"
 
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 // Coordinates contains the minimal information needed to describe how to find a file within any possible source object (e.g. image and directory sources)

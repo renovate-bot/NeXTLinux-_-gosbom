@@ -1,9 +1,9 @@
 package rust
 
 import (
+	"github.com/anchore/packageurl-go"
 	"github.com/microsoft/go-rustaudit"
 
-	"github.com/anchore/packageurl-go"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 )

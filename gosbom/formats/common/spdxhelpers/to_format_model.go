@@ -13,14 +13,14 @@ import (
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"
 
-	"github.com/nextlinux/gosbom/internal"
-	"github.com/nextlinux/gosbom/internal/log"
-	"github.com/nextlinux/gosbom/internal/spdxlicense"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/formats/common/util"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/sbom"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/log"
+	"github.com/nextlinux/gosbom/internal/spdxlicense"
 )
 
 const (

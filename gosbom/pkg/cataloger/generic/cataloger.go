@@ -1,12 +1,12 @@
 package generic
 
 import (
-	"github.com/nextlinux/gosbom/internal"
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/linux"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 type processor func(resolver file.Resolver, env Environment) []request

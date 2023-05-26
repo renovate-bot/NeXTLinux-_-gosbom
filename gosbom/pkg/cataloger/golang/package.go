@@ -6,9 +6,10 @@ import (
 	"strings"
 
 	"github.com/anchore/packageurl-go"
-	"github.com/nextlinux/gosbom/internal/log"
+
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 func (c *goBinaryCataloger) newGoBinaryPackage(resolver file.Resolver, dep *debug.Module, mainModule, goVersion, architecture string, buildSettings map[string]string, locations ...file.Location) pkg.Package {

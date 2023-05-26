@@ -3,9 +3,9 @@ package spdxhelpers
 import (
 	"strings"
 
-	"github.com/nextlinux/gosbom/internal/spdxlicense"
 	"github.com/nextlinux/gosbom/gosbom/license"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
+	"github.com/nextlinux/gosbom/internal/spdxlicense"
 )
 
 func License(p pkg.Package) (concluded, declared string) {

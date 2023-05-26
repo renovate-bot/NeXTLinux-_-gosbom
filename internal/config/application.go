@@ -10,11 +10,11 @@ import (
 	"strings"
 
 	"github.com/adrg/xdg"
+	"github.com/anchore/go-logger"
 	"github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v2"
 
-	"github.com/anchore/go-logger"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger"
 	golangCataloger "github.com/nextlinux/gosbom/gosbom/pkg/cataloger/golang"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/kernel"

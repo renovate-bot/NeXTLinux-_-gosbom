@@ -3,8 +3,8 @@ package fileresolver
 import (
 	"io"
 
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/file"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 var _ file.Resolver = (*Deferred)(nil)

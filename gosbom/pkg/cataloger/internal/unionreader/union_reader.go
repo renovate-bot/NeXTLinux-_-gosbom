@@ -6,6 +6,7 @@ import (
 	"io"
 
 	macho "github.com/anchore/go-macholibre"
+
 	"github.com/nextlinux/gosbom/internal/log"
 )
 

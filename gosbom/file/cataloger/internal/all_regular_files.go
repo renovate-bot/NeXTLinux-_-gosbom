@@ -2,8 +2,9 @@ package internal
 
 import (
 	stereoscopeFile "github.com/anchore/stereoscope/pkg/file"
-	"github.com/nextlinux/gosbom/internal/log"
+
 	"github.com/nextlinux/gosbom/gosbom/file"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 func AllRegularFiles(resolver file.Resolver) (locations []file.Location) {

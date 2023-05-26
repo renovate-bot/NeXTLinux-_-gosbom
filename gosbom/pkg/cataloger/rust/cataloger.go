@@ -4,8 +4,8 @@ Package rust provides a concrete Cataloger implementation for Cargo.lock files.
 package rust
 
 import (
-	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/generic"
+	"github.com/nextlinux/gosbom/internal"
 )
 
 // NewCargoLockCataloger returns a new Rust Cargo lock file cataloger object.

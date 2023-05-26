@@ -5,14 +5,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/anchore/packageurl-go"
 	"github.com/mholt/archiver/v3"
 
-	"github.com/anchore/packageurl-go"
-	"github.com/nextlinux/gosbom/internal"
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/sbom"
 	"github.com/nextlinux/gosbom/gosbom/source"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 // toGithubModel converts the provided SBOM to a GitHub dependency model

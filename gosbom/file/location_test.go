@@ -3,9 +3,8 @@ package file
 import (
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-
 	"github.com/anchore/stereoscope/pkg/file"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestLocation_ID(t *testing.T) {

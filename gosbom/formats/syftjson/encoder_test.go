@@ -6,6 +6,7 @@ import (
 	"testing"
 
 	stereoFile "github.com/anchore/stereoscope/pkg/file"
+
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/cpe"
 	"github.com/nextlinux/gosbom/gosbom/file"

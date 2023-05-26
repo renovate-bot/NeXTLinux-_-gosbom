@@ -10,15 +10,15 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/anchore/stereoscope/pkg/file"
+	"github.com/anchore/stereoscope/pkg/filetree"
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/go-progress"
 
-	"github.com/anchore/stereoscope/pkg/file"
-	"github.com/anchore/stereoscope/pkg/filetree"
+	"github.com/nextlinux/gosbom/gosbom/event"
 	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/internal/bus"
 	"github.com/nextlinux/gosbom/internal/log"
-	"github.com/nextlinux/gosbom/gosbom/event"
 )
 
 type PathIndexVisitor func(string, os.FileInfo, error) error

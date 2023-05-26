@@ -9,9 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stretchr/testify/require"
-
 	"github.com/anchore/stereoscope/pkg/imagetest"
+	"github.com/stretchr/testify/require"
 )
 
 func TestSpdxValidationTooling(t *testing.T) {

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/nextlinux/gosbom/internal"
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/license"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 var _ sort.Interface = (*Licenses)(nil)

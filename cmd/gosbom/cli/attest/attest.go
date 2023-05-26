@@ -7,11 +7,11 @@ import (
 	"os/exec"
 	"strings"
 
+	"github.com/anchore/stereoscope"
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/go-progress"
 	"golang.org/x/exp/slices"
 
-	"github.com/anchore/stereoscope"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/eventloop"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/options"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/packages"

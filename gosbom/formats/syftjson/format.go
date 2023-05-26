@@ -1,8 +1,8 @@
 package syftjson
 
 import (
-	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/gosbom/sbom"
+	"github.com/nextlinux/gosbom/internal"
 )
 
 const ID sbom.FormatID = "syft-json"

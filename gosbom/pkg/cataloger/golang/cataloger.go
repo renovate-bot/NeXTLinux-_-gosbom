@@ -4,12 +4,12 @@ Package golang provides a concrete Cataloger implementation for go.mod files.
 package golang
 
 import (
-	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/event"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/generic"
+	"github.com/nextlinux/gosbom/internal"
 )
 
 // NewGoModFileCataloger returns a new Go module cataloger object.

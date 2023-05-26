@@ -4,8 +4,8 @@ import (
 	"reflect"
 
 	"github.com/CycloneDX/cyclonedx-go"
-
 	"github.com/anchore/packageurl-go"
+
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/formats/common"
 	"github.com/nextlinux/gosbom/gosbom/pkg"

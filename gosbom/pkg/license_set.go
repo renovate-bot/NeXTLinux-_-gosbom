@@ -6,8 +6,8 @@ import (
 
 	"github.com/mitchellh/hashstructure/v2"
 
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 type LicenseSet struct {

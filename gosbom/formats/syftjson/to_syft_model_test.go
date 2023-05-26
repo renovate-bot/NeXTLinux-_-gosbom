@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
+	stereoFile "github.com/anchore/stereoscope/pkg/file"
 	"github.com/scylladb/go-set/strset"
 	"github.com/stretchr/testify/assert"
 
-	stereoFile "github.com/anchore/stereoscope/pkg/file"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/formats/syftjson/model"

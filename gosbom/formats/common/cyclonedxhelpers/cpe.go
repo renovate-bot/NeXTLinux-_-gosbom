@@ -3,9 +3,9 @@ package cyclonedxhelpers
 import (
 	"github.com/CycloneDX/cyclonedx-go"
 
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/cpe"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 func encodeSingleCPE(p pkg.Package) string {

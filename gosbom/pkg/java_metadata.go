@@ -3,8 +3,8 @@ package pkg
 import (
 	"strings"
 
-	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/gosbom/file"
+	"github.com/nextlinux/gosbom/internal"
 )
 
 var jenkinsPluginPomPropertiesGroupIDs = []string{

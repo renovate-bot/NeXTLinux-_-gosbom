@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
+	"github.com/nextlinux/gosbom/internal"
 )
 
 var (

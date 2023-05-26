@@ -3,11 +3,11 @@ package java
 import (
 	"fmt"
 
-	intFile "github.com/nextlinux/gosbom/internal/file"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger/generic"
+	intFile "github.com/nextlinux/gosbom/internal/file"
 )
 
 var genericZipGlobs = []string{

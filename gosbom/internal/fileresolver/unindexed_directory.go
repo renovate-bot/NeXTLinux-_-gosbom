@@ -15,8 +15,8 @@ import (
 	"github.com/spf13/afero"
 	"golang.org/x/exp/slices"
 
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/file"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 var _ file.Resolver = (*UnindexedDirectory)(nil)

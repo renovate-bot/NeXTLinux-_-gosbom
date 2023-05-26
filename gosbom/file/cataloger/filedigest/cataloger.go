@@ -4,16 +4,16 @@ import (
 	"crypto"
 	"errors"
 
+	stereoscopeFile "github.com/anchore/stereoscope/pkg/file"
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/go-progress"
 
-	stereoscopeFile "github.com/anchore/stereoscope/pkg/file"
-	"github.com/nextlinux/gosbom/internal"
-	"github.com/nextlinux/gosbom/internal/bus"
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/event"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	internal2 "github.com/nextlinux/gosbom/gosbom/file/cataloger/internal"
+	"github.com/nextlinux/gosbom/internal"
+	"github.com/nextlinux/gosbom/internal/bus"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 var ErrUndigestableFile = errors.New("undigestable file")

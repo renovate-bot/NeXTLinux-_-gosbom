@@ -13,17 +13,17 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/anchore/stereoscope"
+	"github.com/anchore/stereoscope/pkg/image"
 	"github.com/bmatcuk/doublestar/v4"
 	"github.com/mholt/archiver/v3"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/spf13/afero"
 
-	"github.com/anchore/stereoscope"
-	"github.com/anchore/stereoscope/pkg/image"
-	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/gosbom/artifact"
 	"github.com/nextlinux/gosbom/gosbom/file"
 	"github.com/nextlinux/gosbom/gosbom/internal/fileresolver"
+	"github.com/nextlinux/gosbom/internal/log"
 )
 
 // Source is an object that captures the data source to be cataloged, configuration, and a specific resolver used

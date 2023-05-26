@@ -7,6 +7,7 @@ import (
 	stereoscopeFile "github.com/anchore/stereoscope/pkg/file"
 	"github.com/anchore/stereoscope/pkg/filetree"
 	"github.com/anchore/stereoscope/pkg/image"
+
 	"github.com/nextlinux/gosbom/gosbom/file"
 )
 
