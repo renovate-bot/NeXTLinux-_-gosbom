@@ -6,9 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xeipuuv/gojsonschema"
-
 	"github.com/anchore/stereoscope/pkg/imagetest"
+	"github.com/xeipuuv/gojsonschema"
 )
 
 // this is the path to the json schema directory relative to the root of the repo

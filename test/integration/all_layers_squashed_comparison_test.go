@@ -3,7 +3,7 @@ package integration
 import (
 	"testing"
 
-	"github.com/nextlinux/gosbom/syft/source"
+	"github.com/nextlinux/gosbom/gosbom/source"
 )
 
 func Test_AllLayersIncludesSquashed(t *testing.T) {

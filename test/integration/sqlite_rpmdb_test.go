@@ -5,8 +5,8 @@ import (
 
 	_ "modernc.org/sqlite"
 
-	"github.com/nextlinux/gosbom/syft/pkg"
-	"github.com/nextlinux/gosbom/syft/source"
+	"github.com/nextlinux/gosbom/gosbom/pkg"
+	"github.com/nextlinux/gosbom/gosbom/source"
 )
 
 func TestSqliteRpm(t *testing.T) {

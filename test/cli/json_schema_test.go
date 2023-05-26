@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/anchore/stereoscope/pkg/imagetest"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/anchore/stereoscope/pkg/imagetest"
 	"github.com/nextlinux/gosbom/internal"
 )
 

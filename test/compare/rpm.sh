@@ -9,7 +9,7 @@ RESULTSDIR=$4
 
 EXIT_CODE=1
 TEST_TYPE=rpm
-WORK_DIR=`mktemp -d -t "syft-acceptance-test-${TEST_TYPE}-XXXXXX"`
+WORK_DIR=`mktemp -d -t "gosbom-acceptance-test-${TEST_TYPE}-XXXXXX"`
 NORMAL_TEST_IMAGE=$(echo ${TEST_IMAGE} | tr ':' '-' )
 REPORT=${WORK_DIR}/acceptance-${TEST_TYPE}-${NORMAL_TEST_IMAGE}.json
 GOLDEN_REPORT=${ACC_DIR}/test-fixtures/acceptance-${NORMAL_TEST_IMAGE}.json
@@ -30,7 +30,7 @@ trap cleanup EXIT
 # fetch test image
 docker pull ${TEST_IMAGE}
 
-# install and run syft
+# install and run gosbom
 docker run --rm \
     -v /var/run/docker.sock://var/run/docker.sock \
     -v /${PWD}:/src \
@@ -39,9 +39,9 @@ docker run --rm \
     -w /src \
     centos:latest \
         /bin/bash -x -c "\
-            rpm -ivh ${DISTDIR}/syft_*_linux_amd64.rpm && \
-            syft version && \
-            syft packages ${TEST_IMAGE} -vv -o json > ${REPORT} \
+            rpm -ivh ${DISTDIR}/gosbom_*_linux_amd64.rpm && \
+            gosbom version && \
+            gosbom packages ${TEST_IMAGE} -vv -o json > ${REPORT} \
         "
 
 # keep the generated report around

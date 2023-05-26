@@ -7,24 +7,24 @@ import (
 	"os/exec"
 	"strings"
 
+	"github.com/anchore/stereoscope"
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/go-progress"
 	"golang.org/x/exp/slices"
 
-	"github.com/anchore/stereoscope"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/eventloop"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/options"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/packages"
+	syft "github.com/nextlinux/gosbom/gosbom"
+	"github.com/nextlinux/gosbom/gosbom/event"
+	"github.com/nextlinux/gosbom/gosbom/event/monitor"
+	"github.com/nextlinux/gosbom/gosbom/formats/syftjson"
+	"github.com/nextlinux/gosbom/gosbom/formats/table"
+	"github.com/nextlinux/gosbom/gosbom/sbom"
+	"github.com/nextlinux/gosbom/gosbom/source"
 	"github.com/nextlinux/gosbom/internal/bus"
 	"github.com/nextlinux/gosbom/internal/config"
 	"github.com/nextlinux/gosbom/internal/ui"
-	"github.com/nextlinux/gosbom/syft"
-	"github.com/nextlinux/gosbom/syft/event"
-	"github.com/nextlinux/gosbom/syft/event/monitor"
-	"github.com/nextlinux/gosbom/syft/formats/syftjson"
-	"github.com/nextlinux/gosbom/syft/formats/table"
-	"github.com/nextlinux/gosbom/syft/sbom"
-	"github.com/nextlinux/gosbom/syft/source"
 )
 
 func Run(_ context.Context, app *config.Application, args []string) error {

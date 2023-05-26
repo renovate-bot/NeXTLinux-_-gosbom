@@ -17,9 +17,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/require"
-
 	"github.com/anchore/stereoscope/pkg/imagetest"
+	"github.com/stretchr/testify/require"
 )
 
 var showOutput = flag.Bool("show-output", false, "show stdout and stderr for failing tests")

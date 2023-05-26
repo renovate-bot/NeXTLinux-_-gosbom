@@ -1,6 +1,6 @@
 package integration
 
-import "github.com/nextlinux/gosbom/syft/pkg"
+import "github.com/nextlinux/gosbom/gosbom/pkg"
 
 type testCase struct {
 	name        string
