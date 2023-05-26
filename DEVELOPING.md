@@ -11,8 +11,8 @@ After cloning the following step can help you get setup:
 1. run `make bootstrap` to download go mod dependencies, create the `/.tmp` dir, and download helper utilities.
 2. run `make` to view the selection of developer commands in the Makefile
 3. run `make build` to build the release snapshot binaries and packages
-4. for an even quicker start you can run `go run cmd/syft/main.go` to print the syft help.
-	- this command `go run cmd/syft/main.go alpine:latest` will compile and run syft against `alpine:latest`
+4. for an even quicker start you can run `go run cmd/gosbom/main.go` to print the syft help.
+	- this command `go run cmd/gosbom/main.go alpine:latest` will compile and run syft against `alpine:latest`
 5. view the README or syft help output for more output options
 
 The main make tasks for common static analysis and testing are `lint`, `format`, `lint-fix`, `unit`, `integration`, and `cli`.
@@ -25,11 +25,11 @@ Syft is used to generate a Software Bill of Materials (SBOM) from different kind
 
 ### Code organization for the cmd package
 
-Syft's entrypoint can be found in the `cmd` package at `cmd/syft/main.go`. `main.go` builds a new syft `cli` via `cli.New()` 
+Syft's entrypoint can be found in the `cmd` package at `cmd/gosbom/main.go`. `main.go` builds a new syft `cli` via `cli.New()` 
 and then executes the `cli` via `cli.Execute()`. The `cli` package is responsible for parsing command line arguments, 
 setting up the application context and configuration, and executing the application. Each of syft's commands 
 (e.g. `packages`, `attest`, `version`) are implemented as a `cobra.Command` in their respective `<command>.go` files. 
-They are registered in `syft/cli/commands/go`.
+They are registered in `gosbom/cli/commands/go`.
 ```
 .
 └── syft/
@@ -54,7 +54,7 @@ They are registered in `syft/cli/commands/go`.
 
 ```mermaid
 sequenceDiagram
-    participant main as cmd/syft/main
+    participant main as cmd/gosbom/main
     participant cli as cli.New()
     participant root as root.Execute()
     participant cmd as <command>.Execute()

@@ -5,7 +5,7 @@ import (
 
 	_ "modernc.org/sqlite"
 
-	"github.com/nextlinux/gosbom/cmd/syft/cli"
+	"github.com/nextlinux/gosbom/cmd/gosbom/cli"
 )
 
 func main() {

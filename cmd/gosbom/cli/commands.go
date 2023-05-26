@@ -13,7 +13,7 @@ import (
 
 	"github.com/anchore/go-logger/adapter/logrus"
 	"github.com/anchore/stereoscope"
-	"github.com/nextlinux/gosbom/cmd/syft/cli/options"
+	"github.com/nextlinux/gosbom/cmd/gosbom/cli/options"
 	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/internal/bus"
 	"github.com/nextlinux/gosbom/internal/config"

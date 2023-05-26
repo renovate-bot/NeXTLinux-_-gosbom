@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/nextlinux/gosbom/cmd/syft/cli/options"
+	"github.com/nextlinux/gosbom/cmd/gosbom/cli/options"
 	"github.com/nextlinux/gosbom/internal/config"
 	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/syft/formats"

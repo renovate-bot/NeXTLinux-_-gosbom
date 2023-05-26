@@ -84,7 +84,7 @@ func encodeExternalReferences(p pkg.Package) *[]cyclonedx.ExternalReference {
 // supported algorithm in cycloneDX as of 1.4
 // "MD5", "SHA-1", "SHA-256", "SHA-384", "SHA-512",
 // "SHA3-256", "SHA3-384", "SHA3-512", "BLAKE2b-256", "BLAKE2b-384", "BLAKE2b-512", "BLAKE3"
-// syft supported digests: cmd/syft/cli/eventloop/tasks.go
+// syft supported digests: cmd/gosbom/cli/eventloop/tasks.go
 // MD5, SHA1, SHA256
 func toCycloneDXAlgorithm(algorithm string) cyclonedx.HashAlgorithm {
 	validMap := map[string]cyclonedx.HashAlgorithm{
