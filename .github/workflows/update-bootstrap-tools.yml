@@ -52,12 +52,6 @@ jobs:
           echo "GLOW=GLOW_LATEST_VERSION" >> $GITHUB_OUTPUT
         id: latest-versions
 
-      - uses: tibdex/github-app-token@v1
-        id: generate-token
-        with:
-          app_id: ${{ secrets.TOKEN_APP_ID }}
-          private_key: ${{ secrets.TOKEN_APP_PRIVATE_KEY }}
-
       - uses: peter-evans/create-pull-request@v5
         with:
           signoff: true
@@ -76,4 +70,3 @@ jobs:
             - [cosign ${{ steps.latest-versions.outputs.COSIGN }}](https://github.com/sigstore/cosign/releases/tag/${{ steps.latest-versions.outputs.COSIGN }})  
             - [glow ${{ steps.latest-versions.outputs.GLOW }}](https://github.com/charmbracelet/glow/releases/tag/${{ steps.latest-versions.outputs.GLOW }})  
             This is an auto-generated pull request to update all of the bootstrap tools to the latest versions.
-          token: ${{ steps.generate-token.outputs.token }}
