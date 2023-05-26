@@ -12,9 +12,9 @@ import (
 	"golang.org/x/exp/slices"
 
 	"github.com/anchore/stereoscope"
-	"github.com/nextlinux/gosbom/cmd/syft/cli/eventloop"
-	"github.com/nextlinux/gosbom/cmd/syft/cli/options"
-	"github.com/nextlinux/gosbom/cmd/syft/cli/packages"
+	"github.com/nextlinux/gosbom/cmd/gosbom/cli/eventloop"
+	"github.com/nextlinux/gosbom/cmd/gosbom/cli/options"
+	"github.com/nextlinux/gosbom/cmd/gosbom/cli/packages"
 	"github.com/nextlinux/gosbom/internal/bus"
 	"github.com/nextlinux/gosbom/internal/config"
 	"github.com/nextlinux/gosbom/internal/ui"

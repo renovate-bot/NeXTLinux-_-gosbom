@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/nextlinux/gosbom/cmd/syft/cli/convert"
+	"github.com/nextlinux/gosbom/cmd/gosbom/cli/convert"
 	"github.com/nextlinux/gosbom/internal/config"
 	"github.com/nextlinux/gosbom/syft/formats"
 	"github.com/nextlinux/gosbom/syft/formats/cyclonedxjson"
