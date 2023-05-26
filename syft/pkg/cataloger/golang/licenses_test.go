@@ -13,11 +13,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/nextlinux/gosbom/gosbom/file"
+	"github.com/nextlinux/gosbom/gosbom/internal/fileresolver"
+	"github.com/nextlinux/gosbom/gosbom/license"
+	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/internal"
-	"github.com/nextlinux/gosbom/syft/file"
-	"github.com/nextlinux/gosbom/syft/internal/fileresolver"
-	"github.com/nextlinux/gosbom/syft/license"
-	"github.com/nextlinux/gosbom/syft/pkg"
 )
 
 func Test_LocalLicenseSearch(t *testing.T) {

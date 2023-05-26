@@ -194,23 +194,23 @@ fingerprints:
 		make cache.fingerprint
 
 	# for BINARY test fixtures
-	cd syft/pkg/cataloger/binary/test-fixtures && \
+	cd gosbom/pkg/cataloger/binary/test-fixtures && \
 		make cache.fingerprint
 
 	# for JAVA BUILD test fixtures
-	cd syft/pkg/cataloger/java/test-fixtures/java-builds && \
+	cd gosbom/pkg/cataloger/java/test-fixtures/java-builds && \
 		make cache.fingerprint
 
 	# for GO BINARY test fixtures
-	cd syft/pkg/cataloger/golang/test-fixtures/archs && \
+	cd gosbom/pkg/cataloger/golang/test-fixtures/archs && \
 		make binaries.fingerprint
 
 	# for RPM test fixtures
-	cd syft/pkg/cataloger/rpm/test-fixtures && \
+	cd gosbom/pkg/cataloger/rpm/test-fixtures && \
 		make rpms.fingerprint
 
 	# for Kernel test fixtures
-	cd syft/pkg/cataloger/kernel/test-fixtures && \
+	cd gosbom/pkg/cataloger/kernel/test-fixtures && \
 		make cache.fingerprint
 
 	# for INSTALL integration test fixtures
@@ -224,9 +224,9 @@ fingerprints:
 .PHONY: fixtures
 fixtures:
 	$(call title,Generating test fixtures)
-	cd syft/pkg/cataloger/java/test-fixtures/java-builds && make
-	cd syft/pkg/cataloger/rpm/test-fixtures && make
-	cd syft/pkg/cataloger/binary/test-fixtures && make
+	cd gosbom/pkg/cataloger/java/test-fixtures/java-builds && make
+	cd gosbom/pkg/cataloger/rpm/test-fixtures && make
+	cd gosbom/pkg/cataloger/binary/test-fixtures && make
 
 .PHONY: show-test-image-cache
 show-test-image-cache:  ## Show all docker and image tar cache

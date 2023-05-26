@@ -13,7 +13,7 @@ import (
 	"github.com/wagoodman/jotframe/pkg/frame"
 
 	stereoscopeEvent "github.com/anchore/stereoscope/pkg/event"
-	syftEvent "github.com/nextlinux/gosbom/syft/event"
+	syftEvent "github.com/nextlinux/gosbom/gosbom/event"
 )
 
 // Handler is an aggregated event handler for the set of supported events (PullDockerImage, ReadImage, FetchImage, PackageCatalogerStarted)

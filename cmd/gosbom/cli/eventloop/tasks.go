@@ -4,16 +4,16 @@ import (
 	"crypto"
 	"fmt"
 
+	syft "github.com/nextlinux/gosbom/gosbom"
+	"github.com/nextlinux/gosbom/gosbom/artifact"
+	"github.com/nextlinux/gosbom/gosbom/file"
+	"github.com/nextlinux/gosbom/gosbom/file/cataloger/filecontent"
+	"github.com/nextlinux/gosbom/gosbom/file/cataloger/filedigest"
+	"github.com/nextlinux/gosbom/gosbom/file/cataloger/filemetadata"
+	"github.com/nextlinux/gosbom/gosbom/file/cataloger/secrets"
+	"github.com/nextlinux/gosbom/gosbom/sbom"
+	"github.com/nextlinux/gosbom/gosbom/source"
 	"github.com/nextlinux/gosbom/internal/config"
-	"github.com/nextlinux/gosbom/syft"
-	"github.com/nextlinux/gosbom/syft/artifact"
-	"github.com/nextlinux/gosbom/syft/file"
-	"github.com/nextlinux/gosbom/syft/file/cataloger/filecontent"
-	"github.com/nextlinux/gosbom/syft/file/cataloger/filedigest"
-	"github.com/nextlinux/gosbom/syft/file/cataloger/filemetadata"
-	"github.com/nextlinux/gosbom/syft/file/cataloger/secrets"
-	"github.com/nextlinux/gosbom/syft/sbom"
-	"github.com/nextlinux/gosbom/syft/source"
 )
 
 type Task func(*sbom.Artifacts, *source.Source) ([]artifact.Relationship, error)

@@ -12,7 +12,7 @@ import (
 // This program generates internal/generated.go.
 
 const (
-	pkgImport = "github.com/nextlinux/gosbom/syft/pkg"
+	pkgImport = "github.com/nextlinux/gosbom/gosbom/pkg"
 	path      = "internal/generated.go"
 )
 

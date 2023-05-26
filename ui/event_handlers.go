@@ -20,9 +20,9 @@ import (
 
 	stereoEventParsers "github.com/anchore/stereoscope/pkg/event/parsers"
 	"github.com/anchore/stereoscope/pkg/image/docker"
+	syftEventParsers "github.com/nextlinux/gosbom/gosbom/event/parsers"
 	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/internal/ui/components"
-	syftEventParsers "github.com/nextlinux/gosbom/syft/event/parsers"
 )
 
 const maxBarWidth = 50

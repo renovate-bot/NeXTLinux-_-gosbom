@@ -3,8 +3,8 @@ package integration
 import (
 	"testing"
 
-	"github.com/nextlinux/gosbom/syft/pkg"
-	"github.com/nextlinux/gosbom/syft/source"
+	"github.com/nextlinux/gosbom/gosbom/pkg"
+	"github.com/nextlinux/gosbom/gosbom/source"
 )
 
 func TestRegression212ApkBufferSize(t *testing.T) {

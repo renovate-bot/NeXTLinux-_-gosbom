@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/nextlinux/gosbom/syft/source"
+	"github.com/nextlinux/gosbom/gosbom/source"
 )
 
 type catalogerOptions struct {

@@ -15,8 +15,8 @@ import (
 	"github.com/wagoodman/jotframe/pkg/frame"
 
 	"github.com/anchore/go-logger"
+	syftEvent "github.com/nextlinux/gosbom/gosbom/event"
 	"github.com/nextlinux/gosbom/internal/log"
-	syftEvent "github.com/nextlinux/gosbom/syft/event"
 	"github.com/nextlinux/gosbom/ui"
 )
 

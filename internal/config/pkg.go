@@ -3,7 +3,7 @@ package config
 import (
 	"github.com/spf13/viper"
 
-	"github.com/nextlinux/gosbom/syft/pkg/cataloger"
+	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger"
 )
 
 type pkg struct {

@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/anchore/stereoscope/pkg/imagetest"
+	"github.com/nextlinux/gosbom/gosbom/linux"
+	"github.com/nextlinux/gosbom/gosbom/pkg"
+	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger"
+	"github.com/nextlinux/gosbom/gosbom/pkgource"
 	"github.com/nextlinux/gosbom/internal"
-	"github.com/nextlinux/gosbom/syft/linux"
-	"github.com/nextlinux/gosbom/syft/pkg"
-	"github.com/nextlinux/gosbom/syft/pkg/cataloger"
-	"github.com/nextlinux/gosbom/syft/source"
 )
 
 func BenchmarkImagePackageCatalogers(b *testing.B) {

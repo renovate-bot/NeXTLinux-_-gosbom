@@ -9,16 +9,16 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/convert"
+	"github.com/nextlinux/gosbom/gosbom/formats"
+	"github.com/nextlinux/gosbom/gosbom/formats/cyclonedxjson"
+	"github.com/nextlinux/gosbom/gosbom/formats/cyclonedxxml"
+	"github.com/nextlinux/gosbom/gosbom/formats/spdxjson"
+	"github.com/nextlinux/gosbom/gosbom/formats/spdxtagvalue"
+	"github.com/nextlinux/gosbom/gosbom/formats/syftjson"
+	"github.com/nextlinux/gosbom/gosbom/formats/table"
+	"github.com/nextlinux/gosbom/gosbom/sbom"
+	"github.com/nextlinux/gosbom/gosbom/source"
 	"github.com/nextlinux/gosbom/internal/config"
-	"github.com/nextlinux/gosbom/syft/formats"
-	"github.com/nextlinux/gosbom/syft/formats/cyclonedxjson"
-	"github.com/nextlinux/gosbom/syft/formats/cyclonedxxml"
-	"github.com/nextlinux/gosbom/syft/formats/spdxjson"
-	"github.com/nextlinux/gosbom/syft/formats/spdxtagvalue"
-	"github.com/nextlinux/gosbom/syft/formats/syftjson"
-	"github.com/nextlinux/gosbom/syft/formats/table"
-	"github.com/nextlinux/gosbom/syft/sbom"
-	"github.com/nextlinux/gosbom/syft/source"
 )
 
 // TestConvertCmd tests if the converted SBOM is a valid document according

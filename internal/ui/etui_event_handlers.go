@@ -13,8 +13,8 @@ import (
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/jotframe/pkg/frame"
 
+	syftEventParsers "github.com/nextlinux/gosbom/gosbom/event/parsers"
 	"github.com/nextlinux/gosbom/internal"
-	syftEventParsers "github.com/nextlinux/gosbom/syft/event/parsers"
 )
 
 // handleAppUpdateAvailable is a UI handler function to display a new application version to the top of the screen.

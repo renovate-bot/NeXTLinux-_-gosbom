@@ -3,7 +3,7 @@ package integration
 import (
 	"testing"
 
-	"github.com/nextlinux/gosbom/syft/source"
+	"github.com/nextlinux/gosbom/gosbom/source"
 )
 
 func TestRegressionJavaNoMainPackage(t *testing.T) { // Regression: https://github.com/nextlinux/gosbom/issues/252

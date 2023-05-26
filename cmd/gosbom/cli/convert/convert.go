@@ -7,9 +7,9 @@ import (
 	"os"
 
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/options"
+	"github.com/nextlinux/gosbom/gosbom/formats"
 	"github.com/nextlinux/gosbom/internal/config"
 	"github.com/nextlinux/gosbom/internal/log"
-	"github.com/nextlinux/gosbom/syft/formats"
 )
 
 func Run(_ context.Context, app *config.Application, args []string) error {

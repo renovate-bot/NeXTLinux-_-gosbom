@@ -14,13 +14,13 @@ import (
 	"github.com/anchore/go-logger/adapter/logrus"
 	"github.com/anchore/stereoscope"
 	"github.com/nextlinux/gosbom/cmd/gosbom/cli/options"
+	syft "github.com/nextlinux/gosbom/gosbom"
+	"github.com/nextlinux/gosbom/gosbom/event"
 	"github.com/nextlinux/gosbom/internal"
 	"github.com/nextlinux/gosbom/internal/bus"
 	"github.com/nextlinux/gosbom/internal/config"
 	"github.com/nextlinux/gosbom/internal/log"
 	"github.com/nextlinux/gosbom/internal/version"
-	"github.com/nextlinux/gosbom/syft"
-	"github.com/nextlinux/gosbom/syft/event"
 )
 
 const indent = "  "

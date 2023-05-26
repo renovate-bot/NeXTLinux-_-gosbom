@@ -23,7 +23,7 @@ func AllSyftMetadataTypeNames() ([]string, error) {
 	if err != nil {
 		return nil, err
 	}
-	files, err := filepath.Glob(filepath.Join(root, "syft/pkg/*.go"))
+	files, err := filepath.Glob(filepath.Join(root, "gosbom/pkg/*.go"))
 	if err != nil {
 		return nil, err
 	}

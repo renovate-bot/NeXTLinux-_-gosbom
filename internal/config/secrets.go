@@ -3,8 +3,8 @@ package config
 import (
 	"github.com/spf13/viper"
 
+	"github.com/nextlinux/gosbom/gosbom/source"
 	"github.com/nextlinux/gosbom/internal/file"
-	"github.com/nextlinux/gosbom/syft/source"
 )
 
 type secrets struct {

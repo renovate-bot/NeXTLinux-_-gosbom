@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/nextlinux/gosbom/syft/formats"
-	"github.com/nextlinux/gosbom/syft/formats/template"
+	"github.com/nextlinux/gosbom/gosbom/formats"
+	"github.com/nextlinux/gosbom/gosbom/formats/template"
 )
 
 func TestAllFormatsExpressible(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
+	"github.com/nextlinux/gosbom/gosbom/file"
 	intFile "github.com/nextlinux/gosbom/internal/file"
-	"github.com/nextlinux/gosbom/syft/file"
 )
 
 func TestSecretsCataloger(t *testing.T) {
