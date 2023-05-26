@@ -28,22 +28,22 @@ const (
 	TemplateFormatID      = template.ID
 )
 
-// TODO: deprecated, moved to syft/formats/formats.go. will be removed in v1.0.0
+// TODO: deprecated, moved to gosbom/formats/formats.go. will be removed in v1.0.0
 func FormatIDs() (ids []sbom.FormatID) {
 	return formats.AllIDs()
 }
 
-// TODO: deprecated, moved to syft/formats/formats.go. will be removed in v1.0.0
+// TODO: deprecated, moved to gosbom/formats/formats.go. will be removed in v1.0.0
 func FormatByID(id sbom.FormatID) sbom.Format {
 	return formats.ByNameAndVersion(string(id), "")
 }
 
-// TODO: deprecated, moved to syft/formats/formats.go. will be removed in v1.0.0
+// TODO: deprecated, moved to gosbom/formats/formats.go. will be removed in v1.0.0
 func FormatByName(name string) sbom.Format {
 	return formats.ByName(name)
 }
 
-// TODO: deprecated, moved to syft/formats/formats.go. will be removed in v1.0.0
+// TODO: deprecated, moved to gosbom/formats/formats.go. will be removed in v1.0.0
 func IdentifyFormat(by []byte) sbom.Format {
 	return formats.Identify(by)
 }

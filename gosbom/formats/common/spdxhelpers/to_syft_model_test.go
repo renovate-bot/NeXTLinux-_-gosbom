@@ -200,7 +200,7 @@ func TestExtractSourceFromNamespaces(t *testing.T) {
 		expected  source.Scheme
 	}{
 		{
-			namespace: "https://anchore.com/syft/file/d42b01d0-7325-409b-b03f-74082935c4d3",
+			namespace: "https://anchore.com/gosbom/file/d42b01d0-7325-409b-b03f-74082935c4d3",
 			expected:  source.FileScheme,
 		},
 		{

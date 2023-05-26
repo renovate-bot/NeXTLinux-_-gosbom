@@ -53,7 +53,7 @@ func Test_documentNamespace(t *testing.T) {
 				Scheme: source.FileScheme,
 				Path:   "some/path/to/place",
 			},
-			expected: "https://anchore.com/syft/file/my-name-",
+			expected: "https://anchore.com/gosbom/file/my-name-",
 		},
 	}
 	for _, test := range tests {

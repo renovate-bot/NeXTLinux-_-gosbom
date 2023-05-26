@@ -435,7 +435,7 @@ Configuration search paths:
 - `.syft.yaml`
 - `.syft/config.yaml`
 - `~/.syft.yaml`
-- `<XDG_CONFIG_HOME>/syft/config.yaml`
+- `<XDG_CONFIG_HOME>/gosbom/config.yaml`
 
 Configuration options (example values are the default):
 

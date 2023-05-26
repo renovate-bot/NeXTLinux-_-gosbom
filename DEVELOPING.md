@@ -32,7 +32,7 @@ setting up the application context and configuration, and executing the applicat
 They are registered in `gosbom/cli/commands/go`.
 ```
 .
-└── syft/
+└── gosbom/
     ├── cli/
     │   ├── attest/
     │   ├── attest.go
@@ -83,7 +83,7 @@ SBOM data model, it's translated output formats, and the core SBOM generation lo
 - analysis creates a static SBOM which can be encoded and decoded
 - format objects, should strive to not add or enrich data in encoding that could otherwise be done during analysis
 - package catalogers and their organization can be viewed/added to the `gosbom/pkg/cataloger` package 
-- file catalogers and their organization can be viewed/added to the `syft/file` package
+- file catalogers and their organization can be viewed/added to the `gosbom/file` package
 - The source package provides an abstraction to allow a user to loosely define a data source that can be cataloged
 
 #### Code example of syft as a library
@@ -167,7 +167,7 @@ always feel free to file an issue or reach out to us [on slack](https://anchore.
 
 #### Searching for files
 
-All catalogers are provided an instance of the [`file.Resolver`](https://github.com/nextlinux/gosbom/blob/v0.70.0/syft/source/file_resolver.go#L8) to interface with the image and search for files. The implementations for these 
+All catalogers are provided an instance of the [`file.Resolver`](https://github.com/nextlinux/gosbom/blob/v0.70.0/gosbom/source/file_resolver.go#L8) to interface with the image and search for files. The implementations for these 
 abstractions leverage [`stereoscope`](https://github.com/anchore/stereoscope) in order to perform searching. Here is a 
 rough outline how that works:
 
