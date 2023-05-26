@@ -153,34 +153,34 @@ snapshot_checksums_path() {
 snapshot_assets_count() {
   # example output before wc -l:
 
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_linux_arm64.deb
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_linux_arm64.tar.gz
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_linux_amd64.rpm
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_darwin_arm64.tar.gz
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_linux_amd64.deb
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_linux_arm64.rpm
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_darwin_amd64.zip
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_windows_amd64.zip
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_darwin_arm64.zip
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_linux_amd64.tar.gz
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_darwin_amd64.tar.gz
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_linux_arm64.deb
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_linux_arm64.tar.gz
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_linux_amd64.rpm
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_darwin_arm64.tar.gz
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_linux_amd64.deb
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_linux_arm64.rpm
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_darwin_amd64.zip
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_windows_amd64.zip
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_darwin_arm64.zip
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_linux_amd64.tar.gz
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_darwin_amd64.tar.gz
 
-  echo "$(find ../../snapshot -maxdepth 1 -type f | grep 'syft_' | grep -v checksums | wc -l | tr -d '[:space:]')"
+  echo "$(find ../../snapshot -maxdepth 1 -type f | grep 'gosbom_' | grep -v checksums | wc -l | tr -d '[:space:]')"
 }
 
 
 snapshot_assets_archive_count() {
   # example output before wc -l:
 
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_linux_arm64.tar.gz
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_darwin_arm64.tar.gz
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_darwin_amd64.zip
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_windows_amd64.zip
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_darwin_arm64.zip
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_linux_amd64.tar.gz
-  #  ../../snapshot/syft_0.36.0-SNAPSHOT-e5e847a_darwin_amd64.tar.gz
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_linux_arm64.tar.gz
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_darwin_arm64.tar.gz
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_darwin_amd64.zip
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_windows_amd64.zip
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_darwin_arm64.zip
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_linux_amd64.tar.gz
+  #  ../../snapshot/gosbom_0.36.0-SNAPSHOT-e5e847a_darwin_amd64.tar.gz
 
-  echo "$(find ../../snapshot -maxdepth 1  -type f | grep 'syft_' | grep 'tar\|zip' | wc -l | tr -d '[:space:]')"
+  echo "$(find ../../snapshot -maxdepth 1  -type f | grep 'gosbom_' | grep 'tar\|zip' | wc -l | tr -d '[:space:]')"
 }
 
 
