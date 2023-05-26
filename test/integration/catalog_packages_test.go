@@ -13,7 +13,7 @@ import (
 	"github.com/nextlinux/gosbom/gosbom/linux"
 	"github.com/nextlinux/gosbom/gosbom/pkg"
 	"github.com/nextlinux/gosbom/gosbom/pkg/cataloger"
-	"github.com/nextlinux/gosbom/gosbom/pkgource"
+	"github.com/nextlinux/gosbom/gosbom/source"
 	"github.com/nextlinux/gosbom/internal"
 )
 
