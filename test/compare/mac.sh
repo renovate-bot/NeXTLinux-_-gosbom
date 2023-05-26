@@ -9,7 +9,7 @@ RESULTSDIR=$4
 
 TEST_IMAGE_TAR=image.tar
 TEST_TYPE=mac
-WORK_DIR=`mktemp -d -t "syft-acceptance-test-${TEST_TYPE}-XXXXXX"`
+WORK_DIR=`mktemp -d -t "gosbom-acceptance-test-${TEST_TYPE}-XXXXXX"`
 NORMAL_TEST_IMAGE=$(echo ${TEST_IMAGE} | tr ':' '-' )
 REPORT=${WORK_DIR}/acceptance-${TEST_TYPE}-${NORMAL_TEST_IMAGE}.json
 GOLDEN_REPORT=${ACC_DIR}/test-fixtures/acceptance-${NORMAL_TEST_IMAGE}.json
@@ -38,8 +38,8 @@ else
   skopeo --override-os linux copy "docker://docker.io/${TEST_IMAGE}" "docker-archive:${TEST_IMAGE_TAR}"
 fi
 
-# run syft
-SYFT_PATH="${DISTDIR}/darwin-build_darwin_amd64_v1/syft"
+# run gosbom
+SYFT_PATH="${DISTDIR}/darwin-build_darwin_amd64_v1/gosbom"
 chmod 755 "${SYFT_PATH}"
 "${SYFT_PATH}" version
 SYFT_CHECK_FOR_APP_UPDATE=0 "${SYFT_PATH}" packages docker-archive:${TEST_IMAGE_TAR} -vv -o json > "${REPORT}"

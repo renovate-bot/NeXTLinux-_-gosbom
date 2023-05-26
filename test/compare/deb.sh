@@ -8,7 +8,7 @@ TEST_IMAGE=$3
 RESULTSDIR=$4
 
 TEST_TYPE=deb
-WORK_DIR=`mktemp -d -t "syft-acceptance-test-${TEST_TYPE}-XXXXXX"`
+WORK_DIR=`mktemp -d -t "gosbom-acceptance-test-${TEST_TYPE}-XXXXXX"`
 NORMAL_TEST_IMAGE=$(echo ${TEST_IMAGE} | tr ':' '-' )
 REPORT=${WORK_DIR}/acceptance-${TEST_TYPE}-${NORMAL_TEST_IMAGE}.json
 GOLDEN_REPORT=${ACC_DIR}/test-fixtures/acceptance-${NORMAL_TEST_IMAGE}.json
@@ -31,7 +31,7 @@ trap cleanup EXIT
 # fetch test image
 docker pull ${TEST_IMAGE}
 
-# install and run syft
+# install and run gosbom
 docker run --rm \
     -v /var/run/docker.sock://var/run/docker.sock \
     -v /${PWD}:/src \
@@ -40,9 +40,9 @@ docker run --rm \
     -w /src \
     ubuntu:latest \
         /bin/bash -x -c "\
-            DEBIAN_FRONTEND=noninteractive apt install ${DISTDIR}/syft_*_linux_amd64.deb -y && \
-            syft version && \
-            syft packages ${TEST_IMAGE} -vv -o json > ${REPORT} \
+            DEBIAN_FRONTEND=noninteractive apt install ${DISTDIR}/gosbom_*_linux_amd64.deb -y && \
+            gosbom version && \
+            gosbom packages ${TEST_IMAGE} -vv -o json > ${REPORT} \
         "
 
 # keep the generated report around
